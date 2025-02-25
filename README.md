@@ -76,12 +76,10 @@ Entrega: O candidato deve enviar um link para um repositório no GitHub contendo
 
 ## Instalação
 
-1. Faça um clone dos repositórios do projeto:
+1. Faça um clone do repositórios central:
 
 ```bash
 git clone git@github.com:rushxpush/gerenciador-notas.git
-git clone git@github.com:rushxpush/gerenciador-notas-frontend.git
-git clone git@github.com:rushxpush/gerenciador-notas-backend.git
 ```
 
 2. Entre na pasta do repositório central
@@ -89,12 +87,18 @@ git clone git@github.com:rushxpush/gerenciador-notas-backend.git
 cd gerenciador-notas
 ```
 
-3. Monte a imagem e rode:
+3. Clone os repositórios do frontend e do backend
+```bash
+git clone git@github.com:rushxpush/gerenciador-notas-frontend.git
+git clone git@github.com:rushxpush/gerenciador-notas-backend.git
+```
+
+4. Monte a imagem e rode:
 ```bash
 docker compose up --build
 ```
 
-4. Acesse a página em [localhost:8080](http://localhost:8080)
+5. Acesse a página em [localhost:8085](http://localhost:8085)
 
 [Ir para o topo](#gerenciador-de-notas)
 
