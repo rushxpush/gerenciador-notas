@@ -25,10 +25,51 @@
 - &check; 
 - &#x2610; 
 
-
 [Ir para o topo](#gerenciador-de-notas)
 
 ## Descrição
+
+O candidato deve desenvolver um pequeno sistema de gerenciamento de notas, seguindo os seguintes requisitos:
+
+Back-end (Node.js e MongoDB)
+
+Criar uma API RESTful utilizando NestJS ou Express.js.
+
+Implementar os seguintes endpoints:
+
+POST /notes - Criar uma nova nota.
+
+GET /notes - Listar todas as notas.
+
+Modelar os dados no MongoDB com os campos:
+
+title (string, obrigatório).
+
+content (string, opcional).
+
+Aplicar boas práticas de código (Clean Code, SOLID).
+
+Front-end (Vue.js)
+
+Criar uma interface simples utilizando Vue.js para interagir com a API.
+
+A interface deve permitir:
+
+Criar novas notas.
+
+Listar notas existentes.
+
+Critérios de avaliação
+
+Funcionalidade: O sistema atende aos requisitos propostos?
+
+Qualidade do código: Estrutura, boas práticas e organização.
+
+Usabilidade: Interface intuitiva.
+
+Documentação: README com instruções para rodar o projeto.
+
+Entrega: O candidato deve enviar um link para um repositório no GitHub contendo o código-fonte e instruções claras para executar a aplicação.
 
 
 [Ir para o topo](#gerenciador-de-notas)

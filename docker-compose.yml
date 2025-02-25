@@ -1,0 +1,17 @@
+services:
+  frontend:
+    build: ../gerenciador-notas-frontend
+    ports:
+      - "8085:80"
+    restart: always
+  backend:
+    build: ../gerenciador-notas-backend
+    ports:
+      - "3010:3000"
+    depends_on:
+      - mongo
+  mongo:
+    image: mongo
+    restart: always
+    ports:
+      - "27020:27017"
